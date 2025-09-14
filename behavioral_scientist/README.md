@@ -7,7 +7,7 @@ It covers the experimental deployment of the Public Goods Game (PGG) in **oTree*
 
 ## Contents
 
-- `otree_app.zip` — Ready-to-run oTree app for the 3-player, 8-round PGG (endowment = 100, multiplier = 1.8).  
+- `pgg.otreezip` — Ready-to-run oTree app for the 3-player, 8-round PGG (endowment = 100, multiplier = 1.8).  
 - `screenshots/` — Game pages (instructions, decision, results) and session outcomes with classmates.  
 - `llm/` — Prompts (`prompts.txt`), transcripts (`transcript.md`), and session settings (`settings.json`) for LLM-based play.  
 
@@ -22,7 +22,7 @@ It covers the experimental deployment of the Public Goods Game (PGG) in **oTree*
 
 2. **Unzip and run the app**
    ```bash
-   unzip otree_app.zip -d otree_pgg
+   unzip pgg.otreezip -d otree_pgg
    cd otree_pgg
    otree devserver
    ```
