@@ -11,6 +11,15 @@ It deploys a classic linear **Public Goods Game (PGG)** in oTree and analyzes it
 The game features **3 players**, **8 rounds**, **endowment = 100**, and **multiplier = 1.8**.  
 This setup generates a strict social dilemma: equilibrium predicts full free-riding (0 contributions), while efficiency requires full cooperation (100 contributions).
 
+### Supplementary Materials
+
+The full written report for this project is available as a PDF:
+
+- [`report-LaTeX.pdf`](report-LaTeX.pdf/) — complete interdisciplinary analysis (Economist, Computational Scientist, Behavioral Scientist), including explanations, figures, screenshots, and references.
+
+This PDF complements the repository by providing the **formal write-up**, while the repository folders provide **all supporting code, screenshots, and reproducible assets**.
+
+
 ---
 
 ## Task Summary
