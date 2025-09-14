@@ -1,0 +1,12 @@
+{
+    "model": "ChatGPT 5.0",
+    "version": "September 2025",
+    "temperature": 0.2,
+    "max_tokens": 500,
+    "format": "System + user prompts; role-play as rational agent",
+    "session_type": "Repeated public goods game (8 rounds)",
+    "variants": [
+        "Framing: teamwork project",
+        "Visibility: hidden multiplier"
+    ]
+}
