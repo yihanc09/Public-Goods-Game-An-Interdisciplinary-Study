@@ -7,9 +7,9 @@ It reproduces equilibria for the **3-player Public Goods Game** (endowment = 100
 
 ## Contents
 
-- `notebook.ipynb` — Google Colab export with normal-form payoff matrices, Nash equilibrium computations, and solver outputs.  
-- `gte/` — Game Theory Explorer files (extensive-form tree + SPNE solution).  
-- `screenshots/` — Captures of payoff matrices, solver output, and GTE solution panels (with captions).  
+- [`notebook.ipynb/`](notebook.ipynb/) — Google Colab export with normal-form payoff matrices, Nash equilibrium computations, and solver outputs.  
+- [`gte/`](gte/) — Game Theory Explorer files (extensive-form tree + SPNE solution).  
+- [`screenshots/`](screenshots/) — Captures of payoff matrices, solver output, and GTE solution panels (with captions).  
 
 ---
 
