@@ -7,9 +7,9 @@ It covers the experimental deployment of the Public Goods Game (PGG) in **oTree*
 
 ## Contents
 
-- `pgg.otreezip` — Ready-to-run oTree app for the 3-player, 8-round PGG (endowment = 100, multiplier = 1.8).  
-- `screenshots/` — Game pages (instructions, decision, results) and session outcomes with classmates.  
-- `llm/` — Prompts (`prompts.txt`), transcripts (`transcript.md`), and session settings (`settings.json`) for LLM-based play.  
+- [`pgg.otreezip`](pgg.otreezip/) — Ready-to-run oTree app for the 3-player, 8-round PGG (endowment = 100, multiplier = 1.8).  
+- [`game_screenshots/`](game_screenshots/) — Game pages (instructions, decision, results) and session outcomes with classmates.  
+- [`llm/`](llm/) — Prompts (`prompts.txt`), transcripts (`transcript.md`), and session settings (`settings.json`) for LLM-based play.  
 
 ---
 
