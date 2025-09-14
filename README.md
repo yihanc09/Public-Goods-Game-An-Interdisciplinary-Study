@@ -51,7 +51,7 @@ To reproduce the results in this repository:
    # Load and run notebook.ipynb
 
 4. **Behavioral Scientist (experiment & AI)**  
-   - Run the oTree app in [`behavioral_scientist/otree_app.zip`](behavioral_scientist/otree_app.zip).  
+   - Run the oTree app in [`behavioral_scientist/pgg.otreezip`](behavioral_scientist/pgg.otreezip).  
    - Instructions and screenshots of the 8-round human session are in [`behavioral_scientist/screenshots/`](behavioral_scientist/screenshots/).  
    - LLM transcripts, prompts, and settings are stored in [`behavioral_scientist/llm/`](behavioral_scientist/llm/).
 
