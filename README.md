@@ -42,7 +42,7 @@ To reproduce the results in this repository:
 
 1. **Clone the repository**  
    ```bash
-   git clone <https://github.com/yihanc09/Public-Goods-Game-An-Interdisciplinary-Study.git>
+   git clone https://github.com/yihanc09/Public-Goods-Game-An-Interdisciplinary-Study.git
    cd PublicGoodsGame-AnInterdisciplinaryStudy
 
 2. **Economist (theory & welfare)**  
