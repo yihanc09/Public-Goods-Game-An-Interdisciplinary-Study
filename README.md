@@ -1,12 +1,13 @@
 # Public Goods Game: An Interdisciplinary Study
 
 ## Abstract
-This repository supports **Problem Set 1** for COMSCI/ECON 206: *Computational Microeconomics (Autumn 2025)*.  
+This repository supports **Problem Set 1 & 2** for COMSCI/ECON 206: *Computational Microeconomics (Autumn 2025)*.  
 It deploys a classic linear **Public Goods Game (PGG)** in oTree and analyzes it through three complementary lenses:  
 
 1. **Economist**: Theoretical analysis using Nash equilibrium, welfare benchmarks, and refinements.  
 2. **Computational Scientist**: Reproduction of equilibria using Google Colab (NashPy/QuantEcon) and Game Theory Explorer (GTE).  
-3. **Behavioral Scientist**: Experimental implementation with human participants and large language model (LLM) agents, followed by comparative analysis.  
+3. **Behavioral Scientist**: Experimental implementation with human participants and large language model (LLM) agents, followed by comparative analysis.
+4. **Extension (Problem Set 2)**: Testing the **Winner’s Curse** phenomenon with AI agents, connecting game theory to mechanism design and auction environments.
 
 The game features **3 players**, **8 rounds**, **endowment = 100**, and **multiplier = 1.8**.  
 This setup generates a strict social dilemma: equilibrium predicts full free-riding (0 contributions), while efficiency requires full cooperation (100 contributions).
@@ -16,6 +17,7 @@ This setup generates a strict social dilemma: equilibrium predicts full free-rid
 The full written report for this project is available as a PDF:
 
 - [`report-LaTeX.pdf`](report-LaTeX.pdf/) — complete interdisciplinary analysis (Economist, Computational Scientist, Behavioral Scientist), including explanations, figures, screenshots, and references.
+- [`report-PS2.pdf`](report-PS2.pdf/) — extended analysis for **Problem Set 2** (focus on mechanism design and Winner’s Curse experiments).  
 
 This PDF complements the repository by providing the **formal write-up**, while the repository folders provide **all supporting code, screenshots, and reproducible assets**.
 
@@ -34,6 +36,11 @@ This project demonstrates the interdisciplinary workflow for deploying and analy
 - **Part 3 — Behavioral Scientist**:  
   Run oTree sessions with classmates, deploy an LLM “ChatBot” as a rational agent, and compare outcomes to equilibrium predictions.  
   Propose refinements (Heuristic-Nash Equilibrium, Linguistically Framed Equilibrium) to capture human vs. AI divergences.
+
+- **Part 4 — Extension (Problem Set 2)**  
+  Explore **Winner’s Curse** dynamics by designing a simple auction environment.  
+  Compare predictions from mechanism design theory with simulated play by human participants and AI agents, highlighting where bounded rationality or misperception of value drives outcomes away from equilibrium.  
+  Discuss implications for using AI in market design and economic experiments.
 
 ---
 
