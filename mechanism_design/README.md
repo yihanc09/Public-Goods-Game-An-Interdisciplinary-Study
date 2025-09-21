@@ -12,13 +12,13 @@ It documents the design, setup, and results of first-price sealed-bid auction si
 
 - **Transcripts of Simulated Play**  
   Full conversation transcripts showing reasoning and bid decisions for each model:  
-  - [`mechanism_design/transcript_gpt5.md`](mechanism_design/transcript_gpt5.md)  
-  - [`mechanism_design/transcript_claude.md`](mechanism_design/transcript_claude.md)  
+  - [`transcript_gpt5.md`](./transcript_gpt5.md)  
+  - [`transcript_claude.md`](./transcript_claude.md)  
 
 - **Decision Logs**  
   Structured outputs of numeric bids recorded in CSV format:  
-  - [`mechanism_design/decision_log_gpt5.csv`](mechanism_design/decision_log_gpt5.csv)  
-  - [`mechanism_design/decision_log_claude.csv`](mechanism_design/decision_log_claude.csv)  
+  - [`decision_log_gpt5.csv`](./decision_log_gpt5.csv)  
+  - [`decision_log_claude.csv`](./decision_log_claude.csv)  
 
 ## Experiment Overview
 
