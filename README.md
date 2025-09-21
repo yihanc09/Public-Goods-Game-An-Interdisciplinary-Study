@@ -45,6 +45,35 @@ This project demonstrates the interdisciplinary workflow for deploying and analy
 
 ---
 
+## Repository Structure Overview
+
+### Problem Set 1 — Public Goods Game (PGG)
+
+| Role / Part             | Folder / File | Contents |
+|--------------------------|---------------|----------|
+| **Economist**            | [`economist/`](economist/) | Equilibrium definitions, citations, references (`README.md`, `refs/`) |
+| **Computational Scientist** | [`computational_scientist/`](computational_scientist/) | Jupyter notebook with payoff matrices and solver outputs (`notebook.ipynb`), screenshots, GTE exports |
+| **Behavioral Scientist** | [`behavioral_scientist/`](behavioral_scientist/) | oTree app (`otree_app.zip`), screenshots of human sessions, LLM session data (`llm/` with prompts, transcripts, settings) |
+
+
+### Problem Set 2 — Mechanism Design (Winner’s Curse Extension)
+
+| Component                | Folder / File | Contents |
+|--------------------------|---------------|----------|
+| **Overview & Theory**    | [`mechanism_design/README.md`](mechanism_design/README.md) | Explanation of auction design, hypotheses, and link to mechanism design theory |
+| **AI Simulation Setup**  | [`prompts_setup_gpt5.txt`](mechanism_design/prompts_setup_gpt5.txt), [`prompts_setup_claude.txt`](mechanism_design/prompts_setup_claude.txt) | Exact LLM prompts and interface rules |
+| **Transcripts**          | [`transcript_gpt5.md`](mechanism_design/transcript_gpt5.md), [`transcript_claude.md`](mechanism_design/transcript_claude.md) | Recorded reasoning and choices from GPT-5 and Claude |
+| **Decision Logs**        | [`decision_log_gpt5.csv`](mechanism_design/decision_log_gpt5.csv), [`decision_log_claude.csv`](mechanism_design/decision_log_claude.csv) | Raw outputs from simulated play (round-by-round decisions) |
+
+### Supplementary
+
+- [`report-PS1.pdf`](report-PS1.pdf) — complete interdisciplinary analysis (PS1)  
+- [`report-PS2.pdf`](report-PS2.pdf) — mechanism design extension (PS2)  
+- [`requirements.txt`](requirements.txt) — Python dependencies for reproducibility
+
+
+---
+
 ## Reproduction Steps
 To reproduce the results in this repository:
 
