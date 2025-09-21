@@ -7,8 +7,8 @@ It documents the design, setup, and results of first-price sealed-bid auction si
 
 - **Prompts and Setup Instructions**  
   Detailed prompts and interface setup for running the auction with LLMs are provided in:  
-  - [`mechanism_design/prompts_gpt5.txt`](mechanism_design/prompts_gpt5.txt)  
-  - [`mechanism_design/prompts_claude.txt`](mechanism_design/prompts_claude.txt)  
+  - [`/prompts_setup_gpt5.txt`](/prompts_setup_gpt5.txt)  
+  - [`/prompts_setup_claude.txt`](/prompts_setup_claude.txt)  
 
 - **Transcripts of Simulated Play**  
   Full conversation transcripts showing reasoning and bid decisions for each model:  
