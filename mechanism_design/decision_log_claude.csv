@@ -1,0 +1,5 @@
+group,round,valuation,bid
+control (n=5),1,72,57
+control (n=5),2,40,32
+treatment (n=10),1,85,76
+treatment (n=10),2,55,49

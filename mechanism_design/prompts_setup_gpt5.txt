@@ -1,0 +1,36 @@
+# GPT-5 Auction Experiment Prompts and Setup
+# Problem Set 2 — Part 2.2: AI Agent Testing
+# Auction Format: First-Price Sealed-Bid Auction
+# Model: GPT-5 (OpenAI, 2025)
+
+## Rules of the Game
+1. There are n bidders (GPT-5 plays one of them).
+2. Each bidder receives a private valuation v_i drawn from U[0,100].
+3. Each bidder submits a sealed bid b_i in [0,100] without observing others’ bids.
+4. The highest bidder wins and pays their own bid.
+5. Payoff function for bidder i:
+   u_i(b_i, b_{-i}, v_i) = v_i - b_i if b_i > max(b_j for j != i), else 0.
+
+## Experimental Conditions
+- Control group: n = 5 bidders.
+- Treatment group: n = 10 bidders.
+- GPT-5 is always assigned as one bidder; the remaining bidders are simulated with equilibrium strategies or other LLMs.
+
+## Interface Setup
+- Accessed via OpenAI GPT-5 API (temperature = 0.2, max_tokens = 200, deterministic mode).
+- Input prompt format given below is repeated for each round.
+
+## Prompt Template
+"You are a rational economic agent participating in a first-price sealed-bid auction. 
+Rules:
+1. There are {n} total bidders.
+2. Your private valuation for the object is {v_i} (an integer between 0 and 100).
+3. You must choose a single bid b in [0,100].
+4. If your bid is the highest, you win the object and pay your bid. Your payoff = valuation - bid.
+5. If you do not win, your payoff = 0.
+Question: Given these rules, what bid b do you choose? Please explain your reasoning step by step before giving your final numeric answer in the form 'Bid = X'."
+
+## Logging
+- All GPT-5 responses are recorded as transcripts (transcript_gpt5.md).
+- Numeric decisions (bids) are parsed into a structured decision log (decision_log_gpt5.csv).
+
