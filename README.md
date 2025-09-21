@@ -16,11 +16,12 @@ This setup generates a strict social dilemma: equilibrium predicts full free-rid
 
 The full written report for this project is available as a PDF:
 
-- [`report-LaTeX.pdf`](report-LaTeX.pdf/) — complete interdisciplinary analysis (Economist, Computational Scientist, Behavioral Scientist), including explanations, figures, screenshots, and references.
+- [`report-PS1.pdf`](report-PS1.pdf/) — complete interdisciplinary analysis (Economist, Computational Scientist, Behavioral Scientist), including explanations, figures, screenshots, and references.
 - [`report-PS2.pdf`](report-PS2.pdf/) — extended analysis for **Problem Set 2** (focus on mechanism design and Winner’s Curse experiments).  
 
-This PDF complements the repository by providing the **formal write-up**, while the repository folders provide **all supporting code, screenshots, and reproducible assets**.
+These PDFs complement the repository by providing the **formal write-up**, while the repository folders provide **all supporting code, screenshots, and reproducible assets**.
 
+For reproducibility, a [`requirements.txt`](requirements.txt) file is included to install all necessary Python dependencies.
 
 ---
 
@@ -101,7 +102,14 @@ PublicGoodsGame-AnInterdisciplinaryStudy/
 │   ├── llm/             # Prompts, transcript, settings
 │   └── README.md        # Deployment steps + ethics note
 │
-└── refs/                # Central references (if consolidated)
+└── mechanism_design/
+    ├── README.md         # Explanation of PS2 extension (Winner’s Curse, mechanism design link)
+    ├── prompts_setup_gpt5.txt        # Prompts, rules, and interface setup
+    ├── prompts_setup_claude.txt
+    ├── transcript_gpt5.md            # Transcripts
+    ├── transcript_claude.md
+    ├── decision_log_gpt5.csv         # Decision log
+    └── decision_log_claude.csv         
 ```
 
 ---
