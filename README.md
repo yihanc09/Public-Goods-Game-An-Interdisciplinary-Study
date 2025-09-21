@@ -72,7 +72,20 @@ To reproduce the results in this repository:
    - Instructions and screenshots of the 8-round human session are in [`behavioral_scientist/screenshots/`](behavioral_scientist/screenshots/).  
    - LLM transcripts, prompts, and settings are stored in [`behavioral_scientist/llm/`](behavioral_scientist/llm/).
 
-5. **Bibliography and citations**  
+5. **Mechanism Design (Problem Set 2 Extension)**  
+   - See [`mechanism_design/README.md`](mechanism_design/README.md) for an overview of the auction design, theoretical motivation, and hypotheses.  
+   - Prompts and setup instructions for AI simulations are provided in  
+     [`mechanism_design/prompts_setup_gpt5.txt`](mechanism_design/prompts_setup_gpt5.txt) and  
+     [`mechanism_design/prompts_setup_claude.txt`](mechanism_design/prompts_setup_claude.txt).  
+   - Transcripts of simulated play are in  
+     [`mechanism_design/transcript_gpt5.md`](mechanism_design/transcript_gpt5.md) and  
+     [`mechanism_design/transcript_claude.md`](mechanism_design/transcript_claude.md).  
+   - Decision logs (raw outputs in CSV format) are stored in  
+     [`mechanism_design/decision_log_gpt5.csv`](mechanism_design/decision_log_gpt5.csv) and  
+     [`mechanism_design/decision_log_claude.csv`](mechanism_design/decision_log_claude.csv).  
+   - Together, these materials document how the Winner’s Curse experiment was conducted with AI agents and enable replication or extension of the simulations.
+     
+6. **Bibliography and citations**  
    - All references (textbook, software, and literature) are in [`refs/`](economist/refs/) in Chicago (author-date) style.  
    - Required software citations include:  
      - Thomas J. Sargent and John Stachurski (2021). *Quantitative Economics (Python)*, Version 0.5.1.  
